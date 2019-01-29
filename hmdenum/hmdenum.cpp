@@ -3,10 +3,12 @@
 
 #include "pch.h"
 #include <iostream>
+#include "openvr/headers/openvr.h"
 
 int main()
 {
     std::cout << "Hello World!\n"; 
+	printf("vr::VR_IsRuntimeInstalled -- %u", ::vr::VR_IsRuntimeInstalled());
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
